@@ -22,7 +22,7 @@ import map.Tile;
 
 
 public class CanvasPanel extends JPanel implements KeyListener,
-		MouseMotionListener,MouseListener {
+		MouseMotionListener, MouseListener{
 
 	private static final long serialVersionUID = 8187920910989915064L;
 	private Cursor cursor;
@@ -252,6 +252,6 @@ public class CanvasPanel extends JPanel implements KeyListener,
 
 	@Override
 	public void mouseExited(MouseEvent e) {
-		
+		System.out.println("Mouse exited");
 	}
 }

@@ -18,7 +18,7 @@ import map.Map;
 
 
 public class Main implements ActionListener{
-	public static final int FPS = 60;
+	public static final int FPS = 70;
 	private Canvas canvas;
 	private Map map;
 
